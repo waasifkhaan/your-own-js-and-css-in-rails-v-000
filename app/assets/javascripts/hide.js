@@ -1,5 +1,5 @@
 function hideWhenClicked(){
-  document.getElementById('hide_this').onClick(function() {
+  document.getElementById('hide_this').addEventListener('click', (function() {
     return document.getElementByTag("a").remove()
 
   })
